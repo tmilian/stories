@@ -1,0 +1,23 @@
+name: stories
+description: Stories viewer like Instagram or Snapchat
+version: 0.0.1
+homepage: https://github.com/tmilian/stories
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  better_player: ^0.0.81
+  cached_network_image: ^3.2.0
+  mime: ^1.0.1
+  rxdart: ^0.27.3
+  video_player: ^2.2.18
+  visibility_detector: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
